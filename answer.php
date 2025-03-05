@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- ICS2O-Unit1-08-HTML-MDL -->
+<!-- ICS2O-Unit2-01-PHP -->
 <html lang="en-ca">
   <head>
     <meta charset="utf-8" />
@@ -34,7 +34,7 @@
       href="./favicon-16x16.png"
     />
     <link rel="manifest" href="./site.webmanifest" />
-    <title>The XXX program, PHP</title>
+    <title>The "Hello, World!" program, PHP</title>
   </head>
 
   <body>
@@ -42,14 +42,18 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">The XXX program, PHP</span>
+          <span class="mdl-layout-title">The "Hello, World!" program, PHP</span>
         </div>
       </header>
       <main class="mdl-layout__content">
         <div class="right-image">
           <img src="./images/the-creature.png" alt="the creature" />
         </div>
-        <div class="page-content">The answer is ...</div>
+        <div class="page-content">
+          <?php
+          echo "Hello, World!";
+          ?>
+        </div>
         <br />
         <div class="page-content-answer">
           <a href="./index.php">Return ...</a>
